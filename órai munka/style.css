@@ -1,0 +1,28 @@
+div {
+    background-color: rgb(170, 180, 240);
+    margin: auto;
+    width: 700px;
+    height: fit-content;
+    font-size: 160%;
+    border-radius: 12px;
+    text-align: center;
+}
+
+div * {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+input[type="text"] {
+    font-size: 100%;
+}
+
+input[type="button"] {
+    font-size: 170%;
+    width: 60%;
+}
+
+#visszaigazolas {
+    background-color: white;
+    font-size: 120%;
+}
