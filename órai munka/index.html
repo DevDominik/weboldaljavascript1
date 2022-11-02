@@ -9,9 +9,9 @@
 <body>
     <div>
         <form>
-            <label>Megrendelő neve: </label><input type="text" id="nev" value="Gipsz Jakab"><br>
-            <label>Megrendelő címe: </label><input type="text" id="hely" value="Debrecen" onfocus="onFocus()" onblur="onBlur()"><br>
-            <label>Megrendelő telefonszáma: </label><input type="text" id="telefon" value="+36 50 1234567"><br>
+            <label>Megrendelő neve: </label><input type="text" id="nev" value="Gipsz Jakab" onfocus="onFocus(this)" onblur="onBlur(this)"><br>
+            <label>Megrendelő címe: </label><input type="text" id="hely" value="Debrecen" onfocus="onFocus(this)" onblur="onBlur(this)"><br>
+            <label>Megrendelő telefonszáma: </label><input type="text" id="telefon" value="+36 50 1234567" onfocus="onFocus(this)" onblur="onBlur(this)"><br>
             <input type="button" value="Elküld" onclick="onClick()">
         </form>
     </div>
